@@ -2,6 +2,12 @@
 
 A lightweight GM-tool for Foundry V13 that surfaces the "Link Actor Data" toggle to the Actor Sidebar.
 
+Original Concept by: https://github.com/saif-ellafi
+
+Original Module: https://github.com/saif-ellafi/foundryvtt-actor-link-indicator
+
+
+
 ![Preview](https://github.com/Shadow-355/actor-link-indicator/blob/main/preview.png?raw=true)
 
 ## Features
