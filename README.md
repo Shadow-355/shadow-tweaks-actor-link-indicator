@@ -13,3 +13,6 @@ A lightweight GM-tool for Foundry V13 that surfaces the "Link Actor Data" toggle
 ## Installation
 1. Place the files in `Data/modules/actor-link-indicator`.
 2. Enable the module in your world settings.
+
+This package contains art, text, or software code produced using generative AI.
+An LLM was used as a code-generation tool and to generate most code.
