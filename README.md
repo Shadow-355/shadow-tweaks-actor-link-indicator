@@ -1,4 +1,4 @@
-# Actor Link Indicator
+# Shadow Tweaks - Actor Link Indicator
 
 A lightweight GM-tool for Foundry V13 that surfaces the "Link Actor Data" toggle to the Actor Sidebar.
 
@@ -15,10 +15,6 @@ Original Module: https://github.com/saif-ellafi/foundryvtt-actor-link-indicator
 * **Instant Toggle:** Click the icon in the sidebar to switch modes without opening menus.
 * **Compatibility:** Automatically detects and aligns with **Ownership Viewer**.
 * **Live Updates:** Syncs instantly if settings are changed inside the Actor Sheet.
-
-## Installation
-1. Place the files in `Data/modules/actor-link-indicator`.
-2. Enable the module in your world settings.
 
 This package contains art, text, or software code produced using generative AI.
 An LLM was used as a code-generation tool and to generate most code.
