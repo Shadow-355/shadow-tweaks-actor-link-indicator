@@ -3,7 +3,7 @@
  * Displays a clickable Link/Unlinked icon in the Actor Sidebar.
  */
 
-console.log("Actor Link Indicator | Module Loaded");
+console.log("Shadow Tweaks - Actor Link Indicator | Module Loaded");
 
 // --- CORE LOGIC: Injecting the UI ---
 Hooks.on("renderActorDirectory", (app, html, data) => {
