@@ -1,0 +1,64 @@
+/* Force visibility in the new V2 header */
+.window-header .actor-link-status-icon {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    font-size: var(--font-size-14);
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* Match the DnD5e Linked/Unlinked vibe */
+.actor-link-status-icon.is-linked {
+    color: #4caf50;
+    filter: drop-shadow(0 0 2px rgba(76, 175, 80, 0.4));
+}
+
+.actor-link-status-icon.is-unlinked {
+    color: #ff5252;
+    filter: drop-shadow(0 0 2px rgba(255, 82, 82, 0.4));
+}
+
+/* Tooltip fix for V2 */
+.actor-link-status-icon:hover::after {
+    content: attr(title);
+    position: absolute;
+    background: black;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    top: 30px;
+    white-space: nowrap;
+    z-index: 100;
+}
+
+/* Ensure the parent row doesn't squash the icons */
+li.directory-item.entry.document.actor {
+    gap: 0;
+}
+
+/* Adjust the link icon to match Ownership Viewer's vertical rhythm */
+.actor-link-indicator-wrapper {
+    line-height: initial;
+    max-width: max-content;
+}
+
+/* Sidebar Row Alignment */
+li.directory-item.entry.document.actor {
+    gap: 0;
+    flex-wrap: nowrap !important;
+}
+
+/* Link Button Styling */
+.actor-link-indicator-wrapper {
+    line-height: initial;
+    min-width: 20px;
+    transition: transform 0.1s ease;
+}
+
+.actor-link-indicator-wrapper:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
