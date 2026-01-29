@@ -2,6 +2,8 @@
 
 A lightweight GM-tool for Foundry V13 that surfaces the "Link Actor Data" toggle to the Actor Sidebar.
 
+![Preview](https://github.com/Shadow-355/actor-link-indicator/blob/main/preview.png?raw=true)
+
 ## Features
 * **Visual Status:** Green for Linked, Red for Unlinked.
 * **Instant Toggle:** Click the icon in the sidebar to switch modes without opening menus.
